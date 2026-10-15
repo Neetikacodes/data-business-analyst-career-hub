@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data & Business Analyst Career Hub — Learn Skills, Build Your Career</title>
+<meta name="description" content="Free, structured guide to becoming a Data Analyst or Business Analyst: roles compared, a 12-week roadmap for Excel, SQL and Power BI, and a career-fit quiz.">
+<meta property="og:title" content="Data & Business Analyst Career Hub">
+<meta property="og:description" content="Understand Business. Analyse Data. Build Your Career.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <strong>Analyst Career Hub</strong>
+  <button id="menuBtn" aria-expanded="false" aria-controls="links">Menu</button>
+  <nav id="links" aria-label="Main">
+    <a href="#labs">Learning labs</a><a href="#roles">Roles</a><a href="#quiz">Quiz</a>
+    <a href="#roadmap">Roadmap</a><a href="#salary">Salary</a><a href="#resources">Resources</a>
+  </nav>
+</header>
+<main id="main">
+<section class="hero">
+  <h1>Become a Data Analyst or Business Analyst — Start Learning for Free</h1>
+  <p>Learn the skills, understand real business problems, build practical projects, and prepare for your next career opportunity using free, structured learning resources.</p>
+  <p><a class="btn" href="#roadmap">Start Your Learning Roadmap</a> <a class="btn ghost" href="#labs">Explore Free Learning Labs</a></p>
+  <p class="note">The two roles overlap, but daily work and required skills differ by company. No job or salary is guaranteed.</p>
+  <div id="resume"></div>
+</section>
+
+<section id="labs">
+  <h2>My Free Learning Labs</h2>
+  <p>A useful starting sequence, not a strict rule: Excel for tabular data, SQL for databases, Power BI for models and dashboards.</p>
+  <div class="grid" id="labGrid"></div>
+</section>
+
+<section id="roles">
+  <h2>Business Analyst vs Data Analyst</h2>
+  <p>Job titles vary a lot between employers. Read the job description, not just the title. Overlapping titles include Reporting Analyst, BI Analyst, Product Analyst and Operations Analyst.</p>
+  <div class="grid two" id="roleGrid"></div>
+  <div class="tablewrap"><table id="compare"></table></div>
+</section>
+
+<section id="quiz">
+  <h2>Which role might suit me?</h2>
+  <p>A guide to your interests, not a verdict on your ideal career.</p>
+  <form id="quizForm"></form>
+  <p id="quizResult" role="status"></p>
+</section>
+
+<section id="roadmap">
+  <h2>12-week roadmap (flexible)</h2>
+  <p>Take longer or move faster. Completing it does not guarantee employment. Progress is saved in your browser only.</p>
+  <p id="progress" role="status"></p>
+  <div id="weeks"></div>
+</section>
+
+<section id="salary">
+  <h2>Salary in India</h2>
+  <p>Salary data changes often and sources disagree, because each uses different samples and methods. Treat these as indicative ranges, not promises. Each card names its source and when it was checked. Gross pay is not take-home pay, and CTC can include variable pay and benefits.</p>
+  <div class="grid" id="salaryGrid"></div>
+</section>
+
+<section id="resources">
+  <h2>External resources</h2>
+  <input id="search" type="search" placeholder="Search resources" aria-label="Search resources">
+  <div class="grid" id="resGrid"></div>
+</section>
+</main>
+<footer><p>Understand Business. Analyse Data. Build Your Career.</p><a href="#main">Back to top</a></footer>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
